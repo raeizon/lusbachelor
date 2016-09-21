@@ -2,6 +2,20 @@
 	font-family: 'Fjalla One', sans-serif;
 }
 
+main {
+	position: relative;
+}
+
+.container {
+	display: inline-block;
+	background-color: #f0f0f5;
+	border: 1px solid black;
+	width: 401.4825px;
+	height: 400px;
+	float: left;
+	
+}
+
 html, body {
     margin:0;
     padding:0;
@@ -19,6 +33,7 @@ header {
 	background-color: #d1d1e0;
 	border-bottom: 1px solid #d1d1e0;
 	padding: 20px 0 20px 0;
+	margin-bottom: 1px;
 }
 
 .days {
@@ -42,5 +57,10 @@ dd:before {
 }
 
 dd {
-	
+	font-style: italic;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
 }
