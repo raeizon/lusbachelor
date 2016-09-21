@@ -1,0 +1,46 @@
+* {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	margin: 0;
+}
+
+header {
+	height: 100%;
+	width: 100%;
+	background-color: #d1d1e0;
+	border-bottom: 1px solid #d1d1e0;
+	padding: 20px 0 20px 0;
+}
+
+.days {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+dl {
+	padding: 0;
+	margin-left: 20px;
+}
+
+dt {
+	list-style-type: none;
+	padding: 2px;
+}
+
+dd:before {
+	content: "-";
+}
+
+dd {
+	
+}
