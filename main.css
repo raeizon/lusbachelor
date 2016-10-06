@@ -1,69 +1,108 @@
-/** {
+* {
 	font-family: 'Fjalla One', sans-serif;
 
-}*/
+}
 
-.img {
-  margin-right: -15px;
-  margin-left: -15px;
-  padding-bottom: 62.5%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
+
+
+html {
+	background-color: #f0f3f4;
+ }
+
+.carheader {
+
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 40px;
+	
+}
+
+.carpara {
+
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
 
 }
 
-a:link {
-	color: #ffbf00;
+.header {
+	margin-bottom: 0;
 }
 
-a:visited {
-	color: #ffbf00;
+.logo {
+	height: 46px;
+	width: 46px;
+	border-radius: 50%;
+	padding: 2px;
+	position: relative;
+	float: right;
 }
+
+.logotext {
+	position: relative;
+	float: right;
+	right: 22px;
+	margin-top: 10px;
+	font-size: 25px;
+	font-family: 'Fjalla One', sans-serif;
+	text-decoration: underline;
+	clear: left;
+
+	
+}
+
+.right {
+	float: right;
+}
+
+.margintop {
+	margin-top: 15px;
+}
+
+
 
 h1 {
 	text-align: center;
 	text-decoration: underline;
 	margin: 0;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 100px;
 
 
 }
 
+.gallery {
+	text-align: center;
+	text-decoration: underline;
+	margin: 0;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 75px;
+	margin-top: 5px;
+
+
+}
+
+
 .white {
-	color: #ffffff;
+	color: black;
 	font-family: 'Fjalla One', sans-serif;
 }
 
 header {
 
-	background-color: #4d4d4d;
-
-	margin-bottom: 0px;
-	padding-bottom: 12px;
-	width: 100%;
-
+	 background-image: linear-gradient(#8b9da9, #fff6e4);
+	box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
 }
+
 .opacity {
 	opacity: 0.5;
 }
 
-footer {
-
-	background-color: #d1d1e0;
-	border-bottom: 1px solid #d1d1e0;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-	 position: absolute;
-  	right: 0;
- 	bottom: 0;
-  	left: 0;
-
-}
 
 .days {
 	text-decoration: underline;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 22px;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -72,7 +111,7 @@ footer {
 }
 
 dl {
-	color: white;
+	color: black;
 	padding:  10px;
 
 
@@ -81,7 +120,7 @@ dl {
 dt {
 	list-style-type: none;
 	padding: 2px;
-	font-size: 23px;
+	font-size: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 
 }
@@ -92,7 +131,7 @@ dd:before {
 
 dd {
 	font-style: oblique;
-	font-size: 22px;
+	font-size: 18px;
 	padding-left: 30px;
 }
 
